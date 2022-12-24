@@ -1,0 +1,67 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+   border: 2px solid blanchedalmond;
+   background: black;
+   color: white;
+   padding: 10px;
+   border-radius: 20px;
+}
+h1:hover{
+    background: red;
+    border: 3px solid black;
+    transition: .4s;
+    font-style: italic;
+    color:rgb(22, 220, 251);
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background: #e8e3e3;
+    border-radius: 20px;
+
+}
+.container:hover{
+    background: red;
+    border: 3px solid black;
+    transition: 7s;
+}
+.item{
+    /* background: blue; */
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    /* float: left; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    padding: 12px;
+    flex-grow: 2;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* .item:nth-of-type(1){
+    order: 1;
+    flex-basis: 350px;
+}
+.item:nth-of-type(2){
+    order: 3;
+    flex-basis: 350px;
+    flex-grow: 3;
+}
+.item:nth-of-type(3){
+    order: 2;
+    flex-basis: 450px;
+} */
+.item:hover{
+    box-shadow: 4.9px 8.8px 8.8px hsl(0deg 2% 2%/3.58);
+    /* background: blueviolet; */
+    border: 3px solid royalblue;
+}
